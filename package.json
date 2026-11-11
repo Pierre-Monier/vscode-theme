@@ -1,0 +1,15 @@
+{
+  "name": "warm-theme",
+  "displayName": "Warm Paper & Warm Night",
+  "description": "Warm, colourblind-friendly light and dark themes.",
+  "version": "1.0.0",
+  "publisher": "pierremonier",
+  "engines": { "vscode": "^1.80.0" },
+  "categories": ["Themes"],
+  "contributes": {
+    "themes": [
+      { "label": "Warm Paper", "uiTheme": "vs", "path": "./themes/warm-paper.json" },
+      { "label": "Warm Night", "uiTheme": "vs-dark", "path": "./themes/warm-night.json" }
+    ]
+  }
+}
